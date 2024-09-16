@@ -77,7 +77,7 @@ export const verifyToken = async (req, res, next) => {
     req.token = bearerToken
 
     // بررسی اعتبار توکن
-    const tokenData = await AuthToken.findOne({ token: bearerToken })
+    const tokenData = await AuthToken.findOne({ token: bearerToken,})
     if (!tokenData) {
       return res.status(403).json({ message: 'توکن نامعتبر است' }) // Forbidden
     }
