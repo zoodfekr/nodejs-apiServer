@@ -1,4 +1,4 @@
-import { User } from '../model/users_model.js'
+import { AuthToken, User } from '../model/users_model.js'
 
 export const get_users = async (req, res) => {
   try {
@@ -13,3 +13,5 @@ export const get_users = async (req, res) => {
     res.status(500).json({ message: 'خطایی رخ داده است' })
   }
 }
+
+
