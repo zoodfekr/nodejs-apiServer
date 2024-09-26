@@ -25,12 +25,6 @@ const userSchema = mongoose.Schema({
   }
 })
 
-const tokenSchema = mongoose.Schema({
-  token: { type: String, require: true },
-  username: { type: String, require: true },
-  createdAt: { type: Date, default: Date.now, expires: '1h' }
-})
-
 // استفاده از pre middleware برای هش کردن رمز عبور قبل از ذخیرهسازی
 userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) {
@@ -44,5 +38,35 @@ userSchema.pre('save', async function (next) {
   }
 })
 
+//-----------------------------------------------------------
+const tokenSchema = mongoose.Schema({
+  token: { type: String, require: true },
+  username: { type: String, require: true },
+  createdAt: { type: Date, default: Date.now, expires: '1h' }
+})
+
+//------------------------------------------------------------
+
+const postSchema = mongoose.Schema({
+  title: { type: String, required: true },
+  content: { type: String, required: true },
+  author: { type: String, required: true },
+  publishedDate: { type: Date, default: Date.now },
+  tags: [String],
+  category: { type: String, required: true },
+  images: [String],
+  views: { type: Number, default: 0 },
+  comments: [
+    {
+      user: String,
+      comment: String,
+      date: { type: Date, default: Date.now }
+    }
+  ],
+  status: { type: String, enum: ['published', 'draft'], default: 'draft' },
+  rating: { type: Number, default: 0 }
+})
+
 export const User = mongoose.model('users', userSchema)
 export const AuthToken = mongoose.model('AuthToken', tokenSchema)
+export const Posts = mongoose.model('posts', postSchema)
