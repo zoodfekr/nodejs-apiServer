@@ -5,3 +5,84 @@
 {"level":"info","message":"::1 - - [26/Sep/2024:10:15:58 +0000] \"POST /user_register HTTP/1.1\" 403 44 \"-\" \"PostmanRuntime/7.42.0\"\n"}
 {"level":"info","message":"::1 - - [26/Sep/2024:10:18:16 +0000] \"POST /user_register HTTP/1.1\" 403 44 \"-\" \"PostmanRuntime/7.42.0\"\n"}
 {"level":"info","message":"::1 - - [26/Sep/2024:10:18:35 +0000] \"POST /user_register8 HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:29:12 +0000] \"POST /user_register HTTP/1.1\" 403 44 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:29:16 +0000] \"POST /login HTTP/1.1\" 200 184 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:29:31 +0000] \"POST /user_register HTTP/1.1\" 201 61 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:29:42 +0000] \"GET /users HTTP/1.1\" 403 44 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:29:46 +0000] \"GET /users HTTP/1.1\" 200 584 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:35:42 +0000] \"POST /poste HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:35:48 +0000] \"POST /post HTTP/1.1\" 403 44 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:36:01 +0000] \"POST /post HTTP/1.1\" 200 5 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:49:43 +0000] \"POST /post HTTP/1.1\" 200 768 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:50:43 +0000] \"POST /post HTTP/1.1\" 200 768 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:51:51 +0000] \"POST /post HTTP/1.1\" 200 402 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:52:30 +0000] \"POST /post HTTP/1.1\" 400 1129 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:52:57 +0000] \"POST /post HTTP/1.1\" 400 1129 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:53:03 +0000] \"POST /post HTTP/1.1\" 500 45 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:53:28 +0000] \"POST /post HTTP/1.1\" 500 415 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:54:18 +0000] \"POST /post HTTP/1.1\" 500 415 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:56:37 +0000] \"POST /post HTTP/1.1\" 500 415 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:56:57 +0000] \"POST /post HTTP/1.1\" 500 415 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"date":"Thu Sep 26 2024 14:27:50 GMT+0330 (Iran Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'message')\nTypeError: Cannot read properties of undefined (reading 'message')\n    at posts_data (file:///C:/Users/zoodf/Desktop/backend/controller/post_controller.js:34:39)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":441139.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\zoodf\\Desktop\\backend\\app"],"cwd":"C:\\Users\\zoodf\\Desktop\\backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18273792,"external":21043694,"heapTotal":37482496,"heapUsed":26665096,"rss":69836800},"pid":14032,"uid":null,"version":"v20.15.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'message')\n    at posts_data (file:///C:/Users/zoodf/Desktop/backend/controller/post_controller.js:34:39)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":39,"file":"file:///C:/Users/zoodf/Desktop/backend/controller/post_controller.js","function":"posts_data","line":34,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:58:17 +0000] \"POST /post HTTP/1.1\" 500 415 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:10:58:52 +0000] \"POST /post HTTP/1.1\" 200 386 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:04:46 +0000] \"GET /posts HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:08:23 +0000] \"GET /posts HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:08:37 +0000] \"GET /posts HTTP/1.1\" 500 56 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:10:18 +0000] \"GET /posts HTTP/1.1\" 500 56 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:10:41 +0000] \"GET /posts HTTP/1.1\" 500 56 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:10:57 +0000] \"GET /posts HTTP/1.1\" 200 679 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:11:24 +0000] \"GET /posts HTTP/1.1\" 200 679 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:12:08 +0000] \"GET /posts HTTP/1.1\" 200 679 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:12:12 +0000] \"GET /posts HTTP/1.1\" 200 679 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:23:22 +0000] \"DELETE /posts/66f53cc76e018f96ac2af759 HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:23:31 +0000] \"DELETE /posts/66f53cc76e018f96ac2af759 HTTP/1.1\" 200 50 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [26/Sep/2024:11:24:12 +0000] \"GET /posts HTTP/1.1\" 200 338 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:07:12:23 +0000] \"DELETE /posts/66f53cc76e018f96ac2af759 HTTP/1.1\" 403 44 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:07:12:26 +0000] \"POST /login HTTP/1.1\" 200 184 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:07:13:53 +0000] \"GET /posts HTTP/1.1\" 403 44 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:07:14:04 +0000] \"GET /posts HTTP/1.1\" 403 44 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:07:18:38 +0000] \"POST /login HTTP/1.1\" 200 184 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:07:18:53 +0000] \"GET /posts HTTP/1.1\" 200 348 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:07:20:05 +0000] \"POST /post HTTP/1.1\" 400 1075 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:08:03:19 +0000] \"POST /post HTTP/1.1\" 400 1075 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:08:03:28 +0000] \"POST /post HTTP/1.1\" 400 1075 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:08:03:37 +0000] \"POST /post HTTP/1.1\" 400 1075 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:09:55:55 +0000] \"POST /post HTTP/1.1\" 403 44 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:09:56:04 +0000] \"POST /login HTTP/1.1\" 200 184 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:09:56:25 +0000] \"POST /post HTTP/1.1\" 500 953 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [27/Sep/2024:09:57:15 +0000] \"POST /post HTTP/1.1\" 500 577 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:14:55:09 +0000] \"POST /login HTTP/1.1\" 200 184 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:15:07:09 +0000] \"GET / HTTP/1.1\" 200 42 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:15:07:09 +0000] \"GET /favicon.ico HTTP/1.1\" 200 42 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:15:07:17 +0000] \"GET /public HTTP/1.1\" 200 42 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:15:07:17 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/public\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:15:58:11 +0000] \"POST /login HTTP/1.1\" 200 184 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:12:15 +0000] \"POST /login HTTP/1.1\" 200 184 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:18:57 +0000] \"GET /download HTTP/1.1\" 200 42 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:18:57 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/download\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:18:59 +0000] \"GET /download HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:18:59 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/download\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:19:00 +0000] \"GET /download HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:19:00 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/download\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:19:21 +0000] \"GET /download HTTP/1.1\" 500 22 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:19:21 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/download\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:19:39 +0000] \"GET /download HTTP/1.1\" 500 22 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:19:40 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/download\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:21:03 +0000] \"GET /download HTTP/1.1\" 500 22 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:21:04 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/download\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:21:58 +0000] \"GET /public HTTP/1.1\" 200 42 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:21:59 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/public\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:22:07 +0000] \"GET /public/style.css HTTP/1.1\" 200 42 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:22:07 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/public/style.css\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:22:13 +0000] \"GET /public/style HTTP/1.1\" 200 42 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:22:14 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/public/style\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:22:34 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/public/style.css\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:22:35 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/download\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:23:38 +0000] \"GET /download HTTP/1.1\" 500 22 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:23:39 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:3000/download\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:24:25 +0000] \"GET /download HTTP/1.1\" 200 6185 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:25:15 +0000] \"GET /download HTTP/1.1\" 200 8368 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:25:23 +0000] \"GET /download HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:27:13 +0000] \"GET /download HTTP/1.1\" 200 8368 \"-\" \"PostmanRuntime/7.42.0\"\n"}
+{"level":"info","message":"::1 - - [14/Oct/2024:17:27:31 +0000] \"GET /download HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\"\n"}

@@ -13,5 +13,3 @@ export const get_users = async (req, res) => {
     res.status(500).json({ message: 'خطایی رخ داده است' })
   }
 }
-
-

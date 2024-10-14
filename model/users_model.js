@@ -48,9 +48,14 @@ const tokenSchema = mongoose.Schema({
 //------------------------------------------------------------
 
 const postSchema = mongoose.Schema({
-  title: { type: String, required: true },
+  title: {
+    type: String,
+    required: true,
+    trim: true,
+    minlength: 5,
+    maxlength: 255
+  },
   content: { type: String, required: true },
-  author: { type: String, required: true },
   publishedDate: { type: Date, default: Date.now },
   tags: [String],
   category: { type: String, required: true },
@@ -64,7 +69,8 @@ const postSchema = mongoose.Schema({
     }
   ],
   status: { type: String, enum: ['published', 'draft'], default: 'draft' },
-  rating: { type: Number, default: 0 }
+  author: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  createdAt: { type: Date, default: Date.now }
 })
 
 export const User = mongoose.model('users', userSchema)
